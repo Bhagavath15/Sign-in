@@ -67,7 +67,7 @@ function Login() {
     // validationSchema: formValidationSchema,
     onSubmit: async (values) => {
       console.log("submit")
-      const data = await fetch("http://localhost:4005/login", {
+      const data = await fetch("https://sign-in-backend.vercel.app//login", {
         method: "POST",
         headers: {
           "content-type": "application/json"
@@ -146,7 +146,7 @@ function Signin() {
   const adddata = (newdata) => {
     console.log(newdata)
 
-    fetch("http://localhost:4005/signup", {
+    fetch("https://sign-in-backend.vercel.app//signup", {
       method: "POST",
       body: JSON.stringify(newdata),
       headers: {

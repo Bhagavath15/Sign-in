@@ -26,7 +26,7 @@ export function ForgetPassword() {
 
     const UpdateData = (newUpdate) => {
         console.log(newUpdate)
-        fetch("http://localhost:4005/forget-password/",
+        fetch("https://sign-in-backend.vercel.app//forget-password/",
             {
                 method: "POST",
                 body: JSON.stringify(newUpdate),
