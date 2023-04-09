@@ -46,7 +46,7 @@ function DashBoard() {
   }
   return (
     <div>
-      <Button onClick={handleClick}>Logout</Button>
+      <Button variant="outlined" onClick={handleClick}>Logout</Button>
       <Card sx={{ maxWidth: 300, margin: "auto", marginTop: 25, padding: 10 }} classname="card">
         <h2>Team Kakashi</h2>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKU77dDE7DQ5V2N09rswKOxRoQF6p1xcTYAw&usqp=CAU"
