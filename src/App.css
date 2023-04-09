@@ -1,0 +1,46 @@
+/*-----Login Dashboard-----*/
+
+
+.loginform {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.loginfield {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+
+  padding: 80px;
+  gap: 10px;
+  align-content: center;
+
+}
+
+.card .alreadyuser:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: dodgerblue
+}
+
+.login-card {
+  margin: auto
+}
+
+.card .btn {
+  gap: 10px;
+  display: flex;
+  flex-direction: column
+}
