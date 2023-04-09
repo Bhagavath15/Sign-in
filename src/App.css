@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
 /*-----Login Dashboard-----*/
 
 
@@ -23,10 +28,11 @@
 
 .card {
 
+  max-width: 250px;
   padding: 80px;
   gap: 10px;
   align-content: center;
-
+  background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%)
 }
 
 .card .alreadyuser:hover {
@@ -36,11 +42,13 @@
 }
 
 .login-card {
-  margin: auto
+  margin: 20px;
+  padding: 50px;
+
 }
 
 .card .btn {
   gap: 10px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }

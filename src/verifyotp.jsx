@@ -51,8 +51,9 @@ export function VerifyOtp() {
                         required
                     />
                     <Button type="submit">Reset Password</Button>
+                    {message && <h3>{message}</h3>}
                 </form>
-                {message && <p>{message}</p>}
+
             </Card>
         </div>
     )
