@@ -113,7 +113,7 @@ function Login() {
                 <Button color={formstate} type='submit' variant="contained">{formstate === "success" ? "submit" : "retry"}</Button>
                 <label className="alreadyuser" onClick={() => navigate("/")}>Sign in</label>
                 <label className="alreadyuser" onClick={() => navigate("/forget-password")} >
-                  Forget Password
+                  Forget Password?
                 </label>
               </CardActions>
 
